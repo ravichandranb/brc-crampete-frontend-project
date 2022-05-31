@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 460px) {
+  .bigpic-text1 {
+    font: normal bold small Verdana, Genva, Tahoma, sans-serif;
+  }
+  .bigpic-text2 {
+    font: Normal bold x-large Times New Roman;
+  }
+  .image-cener {
+    background-size: cover;
+  }
+
+  #grid-text {
+    font: normal 20px bold Merriweather, serif;
+  }
+  .menu-1 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 610px) {
+  .bigpic-text1 {
+    font: normal bold large Verdana, Genva, Tahoma, sans-serif;
+  }
+}
+@media only screen and (min-width: 725px) {
+  .bigpic-text2 {
+    font: Normal bold 50px Times New Roman;
+  }
+  .what-to-see-note {
+    position: absolute;
+    z-index: 100;
+    margin: 10% 0 0 5vw;
+    width: 40%;
+  }
+  .what-to-see-img {
+    width: 60%;
+    margin: 0 0 0 30vw;
+  }
+  .menu-1 {
+    display: inline-block;
+    border-bottom: 2px solid rgb(155, 205, 82);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .ul-list1 {
+    width: 80vw;
+  }
+
+  .welcome-div,
+  .video-div {
+    padding: 1% 4% !important;
+    text-align: center;
+  }
+  .welcome-msg {
+    font: normal bold x-large Times New Roman;
+  }
+  .discover-msg1 {
+    font: normal bold small Verdana, Genva, Tahoma, sans-serif;
+  }
+  .discover-msg2 {
+    font: normal small Verdana, Genva, Tahoma, sans-serif;
+  }
+
+  .video-clip {
+    width: 60vw;
+    height: 60vh;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .image-cener {
+    background-size: contain;
+  }
+  .welcome-div {
+    position: absolute;
+    z-index: 100;
+    margin-left: 10vw;
+    margin-top: 14vh;
+    width: 40%;
+
+    padding: 1% 4% !important;
+    text-align: left;
+    font: normal small Verdana, Genva, Tahoma, sans-serif;
+  }
+  .video-div {
+    position: relative;
+
+    margin-left: 20vw;
+    margin-top: 8vh;
+    width: 40%;
+  }
+
+  .video-clip {
+    width: 70vw;
+    height: 60vh;
+  }
+  .welcome-msg {
+    font: normal bold 40px Times New Roman;
+  }
+  .discover-msg1 {
+    font: normal bold large Verdana, Genva, Tahoma, sans-serif;
+  }
+  .discover-msg2 {
+    font: normal large Verdana, Genva, Tahoma, sans-serif;
+  }
+  #grid-text {
+    font: normal 30px bold Merriweather, serif;
+  }
+}
+
+.image-cener {
+  background-image: url(../image/img-6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.big-bg {
+  background-image: url(../image/img-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 200px 100px !important;
+}
+.ul-list1 {
+  width: 90vw;
+}
+
+.ul-list1 li {
+  text-align: center !important;
+  border: 1px dashed rgba(0, 0, 0, 0.15);
+}
+.travel-exp {
+  font: normal bold 30px Times New Roman;
+}
+.schedule {
+  display: none;
+}
+#trip-time:hover .schedule {
+  display: block;
+}
+#trip-time:hover .card-img-overlay {
+  background-color: rgba(29, 24, 24, 0.473);
+}
+.whyeco-tour {
+  background-image: url(../image/whyeco-tour.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 400px 100px !important;
+}
+.quote-font {
+  font-size: 100px;
+  font-family: "Secular One", sans-serif;
+}
+
+.footer-section {
+  background-image: url(../image/img-14.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 100px !important;
+}
+.hispaniola {
+  background-image: url(../image/destination-page/d-img2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 100px !important;
+}
+.ocean-blue {
+  background-image: url(../image/destination-page/d-img7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 400px 200px 200px !important;
+}
+.what-to-see {
+  background-image: url(../image/destination-page/d-img8.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 100px !important;
+}
+
+/*Private Touts page*/
+
+.private-tours {
+  background-image: url(../image/private-tour-page/p-img1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 100px !important;
+}
+
+.lets-get-started {
+  background-image: url(../image/private-tour-page/p-img2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px 20px !important;
+}
+
+.disappear {
+  display: none;
+}
+.card1:hover .disappear {
+  display: block;
+}
+.card1:hover .card-img-overlay {
+  background-color: rgba(29, 24, 24, 0.473);
+}
+
+.single-tour {
+  background-image: url(../image/single-tour/s-img5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 300px 100px !important;
+}
+
+.menu-1:active {
+  border-bottom: 10px solid rgb(155, 205, 82);
+}
+.circle1 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(155, 205, 82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle2 {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(0, 255, 115);
+  display: none;
+}
+.small-img1:hover {
+  opacity: 50%;
+}

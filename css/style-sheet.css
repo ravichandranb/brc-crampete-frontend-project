@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome-div,
+  .video-div {
+    padding: 0 4% !important;
+    text-align: center;
+  }
+
+  .video-clip {
+    width: 60vw;
+    height: 60vh;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .welcome-div {
+    position: absolute;
+    z-index: 100;
+    margin-left: 10vw;
+    margin-top: 14vh;
+    width: 40%;
+    padding: 0 4% !important;
+    text-align: left;
+  }
+  .video-div {
+    position: absolute;
+    z-index: 99;
+    margin-left: 20vw;
+    margin-top: 8vh;
+    width: 40%;
+  }
+
+  .video-clip {
+    width: 75vw;
+    height: 75vh;
+  }
+}
+
+.big-bg {
+  background-image: url(../image/img-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 300px 100px !important;
+}
+.image-cener {
+  height: 160vh;
+  background-image: url(../image/img-6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

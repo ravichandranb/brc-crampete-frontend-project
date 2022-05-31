@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour Lists</title>
+    <!-- --------------BOOTSTRAP CSS CDN----------------- -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!--Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Fontawesome kit code (version 5)-->
+
+    <script
+      src="https://kit.fontawesome.com/2d62a48ad2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- --------------STYLESHEET CSS----------------- -->
+    <link href="css/style-sheet1.css" rel="stylesheet" />
+    <style>
+      .hide-it1 {
+        display: none;
+      }
+      .hide-it2 {
+        display: inline-block;
+        padding-left: 1vw;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--Header (burger menu, title, get in touch)-->
+
+    <div class="row m-0 px-4 py-2">
+      <div class="col-lg-3 py-4">
+        <div class="btn-group">
+          <div class="btn-group">
+            <button type="button" class="btn" data-bs-toggle="dropdown">
+              <i class="fas fa-bars fs-3"></i>
+            </button>
+            <ul class="dropdown-menu ul-list1">
+              <li>
+                <a class="dropdown-item" href="home-page.html">Home Page</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="destination-page.html"
+                  >Destination Page</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="private-tours-page.html"
+                  >Private tours page</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="single-tour-page.html"
+                  >Single tour Page</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="#">Tour List Page</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 text-center py-3">
+        <img class="img-fluid" src="./image/img-1.jpg" alt="link broken" />
+      </div>
+      <div class="col-lg-3 text-center py-4 px-sm-2 bg-white">
+        <div class="text-center getintouch">
+          <button type="button" class="btn btn-outline-success">
+            <i class="fas fa-phone-alt px-3 py-3 text-black"></i>
+
+            GET IN TOUCH
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Big image with texts-->
+
+    <div class="row big-bg px-4 py-5 m-0">
+      <div>
+        <p class="text-white bigpic-text1 px-4 d-inline m-o">
+          DISCOVER A HIDDEN PARADISE
+        </p>
+      </div>
+      <div>
+        <div class="pb-4">
+          <p class="text-white bigpic-text2 px-4 d-inline m-0">
+            Our Travels <br />
+          </p>
+        </div>
+        <div class="px-4">
+          <button
+            type="button"
+            class="btn text-white px-4 py-2"
+            style="background-color: rgb(155, 205, 82)"
+          >
+            BOOK NOW
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--OurTours Description-->
+    <div class="row m-0 p-5 text-center">
+      <p class="px-5" style="font: normal 30px bold Merriweather, serif">
+        Our Tours
+      </p>
+      <p style="padding: 0 25%; font-weight: bold">
+        Discover with Eco Tour Barahona, your specialist in Ecotourism a new
+        face of the Dominician Republic, more human, more authentic!
+      </p>
+      <p style="padding: 0 25%">
+        We have artistically designed unique excursion for you, accompanied by
+        professional and passionate local guides who will show you th best of
+        this part of the country.
+      </p>
+    </div>
+
+    <!--Three small images in white back goound-->
+
+    <div class="row text-center py-5 m-0 bg-light">
+      <div class="col-md-4">
+        <img src="./image/tour-list/t-img-5.jpg" alt="" class="small-img1" />
+      </div>
+      <div class="col-md-2">
+        <img src="./image/tour-list/t-img-2.jpg" alt="" class="small-img1" />
+      </div>
+      <div class="col-md-2">
+        <img src="./image/tour-list/t-img-3.jpg" alt="" class="small-img1" />
+      </div>
+      <div class="col-md-4">
+        <img src="./image/tour-list/t-img-4.jpg" alt="" class="small-img1" />
+      </div>
+    </div>
+    <!--Individual Tour Details-->
+
+    <div class="row m-0">
+      <div class="card">
+        <div class="row m-0">
+          <div class="col-md-4">
+            <img
+              src="./image/tour-list/garden.jpg"
+              alt="broken-link"
+              class="img-fluid"
+              width="100%"
+              height="100%"
+            />
+            <div class="hide-it1 p-3 bg-light" id="hide-it11">
+              <p><strong>ROUTE:</strong> Barahona - Paraiso</p>
+              <p class="py-2" style="border-bottom: 1px solid grey">
+                Horseback riding / Duration: 3-4 hours
+              </p>
+              <p class="py-2" style="border-bottom: 1px solid grey">
+                Panoramic view over the Caribbean Sea
+              </p>
+              <p class="py-2" style="border-bottom: 1px solid grey">
+                Ride through a river
+              </p>
+              <p class="py-2" style="border-bottom: 1px solid grey">
+                Stop at the paprika greenhouse
+              </p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="p-4 d-flex justify-content-between m-auto">
+              <div>
+                <h3 style="font: normal 30px bold Merriweather, serif">
+                  Garden of Eden
+                </h3>
+                <p class="m-0">DAY TRIP</p>
+
+                <p class="m-0">Departing from: Barahona</p>
+                <p><i class="bi bi-clock"> 5-6 hours</i></p>
+              </div>
+              <div class="text-end">
+                <button
+                  class="p-1 text-white"
+                  style="background-color: rgb(155, 205, 82); border: 0"
+                >
+                  $55
+                </button>
+                <p class="m-0">per adult</p>
+                <p class="m-0">Transportation included</p>
+              </div>
+            </div>
+            <div
+              style="width: 80%; margin: auto; border-left: 1px solid lightgray"
+            >
+              <p
+                class="m-0 px-3 d-sm-none d-lg-inline-block"
+                style="font-weight: bold"
+              >
+                Our trek begins in the village Ojeda on the southern coast of
+                Barahona
+              </p>
+              <p class="m-0 px-3 d-sm-none d-lg-inline-block">
+                We start on a lare farm where you only have to stretch out your
+                arm to pick and taste avocados, oranges, lemons, mangos,
+                papayas, sapotes, guavas, passion fruit, and many other types of
+                fruits...
+                <span id="hide-it1" onclick="hidePara(this.id)" class="hide-it2"
+                  ><strong
+                    style="
+                      background-color: rgb(155, 205, 82);
+                      color: white;
+                      padding: 2px;
+                    "
+                    >+ info</strong
+                  ></span
+                >
+              </p>
+              <p id="hide-it111" class="hide-it1 d-sm-none m-0 px-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                aspernatur rerum doloremque neque nesciunt earum quidem velit
+                quisquam voluptas inventore, a itaque commodi laborum nisi
+                pariatur. Cupiditate unde non in... Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Illo aspernatur rerum doloremque
+                neque nesciunt earum quidem velit quisquam voluptas inventore, a
+                itaque commodi laborum nisi pariatur. Cupiditate unde non
+                in...<span
+                  id="hide-it1111"
+                  onclick="showPara(this.id)"
+                  class="d-inline"
+                  ><strong
+                    style="
+                      background-color: rgb(155, 205, 82);
+                      color: white;
+                      padding: 2px;
+                    "
+                    >-less</strong
+                  ></span
+                >
+              </p>
+            </div>
+            <div
+              class="d-lg-flex justify-content-between"
+              style="width: 80%; margin: auto"
+            >
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/bino.png"
+                  alt="broken-link"
+                  width="50"
+                  height="30"
+                />
+                &nbsp;
+                <div
+                  id="circle1"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle11" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle2"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle21" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle3"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle31" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle4"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle41" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle5"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle51" class="circle2"></div>
+                </div>
+                &nbsp;
+              </div>
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/info.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Info
+                <img
+                  src="./image/tour-list/photo.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Photo
+                <img
+                  src="./image/tour-list/map.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Map
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-0">
+      <div class="card">
+        <div class="row m-0">
+          <div class="col-md-4">
+            <img
+              src="./image/tour-list/horse.jpg"
+              alt="broken-link"
+              class="img-fluid"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="p-4 d-flex justify-content-between m-auto">
+              <div>
+                <h3 style="font: normal 30px bold Merriweather, serif">
+                  Garden of Eden
+                </h3>
+                <p class="m-0">DAY TRIP</p>
+
+                <p class="m-0">Departing from: Barahona</p>
+                <p><i class="bi bi-clock"> 5-6 hours</i></p>
+              </div>
+              <div class="text-end">
+                <button
+                  class="p-1 text-white"
+                  style="background-color: rgb(155, 205, 82); border: 0"
+                >
+                  $55
+                </button>
+                <p class="m-0">per adult</p>
+                <p class="m-0">Transportation included</p>
+              </div>
+            </div>
+            <div
+              style="width: 80%; margin: auto; border-left: 1px solid lightgray"
+            >
+              <p
+                class="m-0 px-3 d-sm-none d-lg-inline-block"
+                style="font-weight: bold"
+              >
+                Our trek begins in the village Ojeda on the southern coast of
+                Barahona
+              </p>
+              <p class="m-0 px-3 d-sm-none d-lg-inline-block">
+                We start on a lare farm where you only have to stretch out your
+                arm to pick and taste avocados, oranges, lemons, mangos,
+                papayas, sapotes, guavas, passion fruit, and many other types of
+                fruits
+              </p>
+            </div>
+            <div
+              class="d-lg-flex justify-content-between"
+              style="width: 80%; margin: auto"
+            >
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/bino.png"
+                  alt="broken-link"
+                  width="50"
+                  height="30"
+                />
+                &nbsp;
+                <div
+                  id="circle6"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle61" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle7"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle71" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle8"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle81" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle9"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle91" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle10"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle101" class="circle2"></div>
+                </div>
+                &nbsp;
+              </div>
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/info.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Info
+                <img
+                  src="./image/tour-list/photo.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Photo
+                <img
+                  src="./image/tour-list/map.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Map
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-0">
+      <div class="card">
+        <div class="row m-0">
+          <div class="col-md-4">
+            <img
+              src="./image/tour-list/stones.jpg"
+              alt="broken-link"
+              class="img-fluid"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="p-4 d-flex justify-content-between m-auto">
+              <div>
+                <h3 style="font: normal 30px bold Merriweather, serif">
+                  Garden of Eden
+                </h3>
+                <p class="m-0">DAY TRIP</p>
+
+                <p class="m-0">Departing from: Barahona</p>
+                <p><i class="bi bi-clock"> 5-6 hours</i></p>
+              </div>
+              <div class="text-end">
+                <button
+                  class="p-1 text-white"
+                  style="background-color: rgb(155, 205, 82); border: 0"
+                >
+                  $55
+                </button>
+                <p class="m-0">per adult</p>
+                <p class="m-0">Transportation included</p>
+              </div>
+            </div>
+            <div
+              style="width: 80%; margin: auto; border-left: 1px solid lightgray"
+            >
+              <p
+                class="m-0 px-3 d-sm-none d-lg-inline-block"
+                style="font-weight: bold"
+              >
+                Our trek begins in the village Ojeda on the southern coast of
+                Barahona
+              </p>
+              <p class="m-0 px-3 d-sm-none d-lg-inline-block">
+                We start on a lare farm where you only have to stretch out your
+                arm to pick and taste avocados, oranges, lemons, mangos,
+                papayas, sapotes, guavas, passion fruit, and many other types of
+                fruits
+              </p>
+            </div>
+            <div
+              class="d-lg-flex justify-content-between"
+              style="width: 80%; margin: auto"
+            >
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/bino.png"
+                  alt="broken-link"
+                  width="50"
+                  height="30"
+                />
+                &nbsp;
+                <div
+                  id="circle11"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle111" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle12"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle121" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle13"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle131" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle14"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle141" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle15"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle151" class="circle2"></div>
+                </div>
+                &nbsp;
+              </div>
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/info.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Info
+                <img
+                  src="./image/tour-list/photo.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Photo
+                <img
+                  src="./image/tour-list/map.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Map
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-0">
+      <div class="card">
+        <div class="row m-0">
+          <div class="col-md-4">
+            <img
+              src="./image/tour-list/beach.jpg"
+              alt="broken-link"
+              class="img-fluid"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="p-4 d-flex justify-content-between m-auto">
+              <div>
+                <h3 style="font: normal 30px bold Merriweather, serif">
+                  Garden of Eden
+                </h3>
+                <p class="m-0">DAY TRIP</p>
+
+                <p class="m-0">Departing from: Barahona</p>
+                <p><i class="bi bi-clock"> 5-6 hours</i></p>
+              </div>
+              <div class="text-end">
+                <button
+                  class="p-1 text-white"
+                  style="background-color: rgb(155, 205, 82); border: 0"
+                >
+                  $55
+                </button>
+                <p class="m-0">per adult</p>
+                <p class="m-0">Transportation included</p>
+              </div>
+            </div>
+            <div
+              style="width: 80%; margin: auto; border-left: 1px solid lightgray"
+            >
+              <p
+                class="m-0 px-3 d-sm-none d-lg-inline-block"
+                style="font-weight: bold"
+              >
+                Our trek begins in the village Ojeda on the southern coast of
+                Barahona
+              </p>
+              <p class="m-0 px-3 d-sm-none d-lg-inline-block">
+                We start on a lare farm where you only have to stretch out your
+                arm to pick and taste avocados, oranges, lemons, mangos,
+                papayas, sapotes, guavas, passion fruit, and many other types of
+                fruits
+              </p>
+            </div>
+            <div
+              class="d-lg-flex justify-content-between"
+              style="width: 80%; margin: auto"
+            >
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/bino.png"
+                  alt="broken-link"
+                  width="50"
+                  height="30"
+                />
+                &nbsp;
+                <div
+                  id="circle16"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle161" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle17"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle171" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle18"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle181" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle19"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle191" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle20"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle201" class="circle2"></div>
+                </div>
+                &nbsp;
+              </div>
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/info.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Info
+                <img
+                  src="./image/tour-list/photo.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Photo
+                <img
+                  src="./image/tour-list/map.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Map
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-0">
+      <div class="card">
+        <div class="row m-0">
+          <div class="col-md-4">
+            <img
+              src="./image/tour-list/mountain.jpg"
+              alt="broken-link"
+              class="img-fluid"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="p-4 d-flex justify-content-between m-auto">
+              <div>
+                <h3 style="font: normal 30px bold Merriweather, serif">
+                  Garden of Eden
+                </h3>
+                <p class="m-0">DAY TRIP</p>
+
+                <p class="m-0">Departing from: Barahona</p>
+                <p><i class="bi bi-clock"> 5-6 hours</i></p>
+              </div>
+              <div class="text-end">
+                <button
+                  class="p-1 text-white"
+                  style="background-color: rgb(155, 205, 82); border: 0"
+                >
+                  $55
+                </button>
+                <p class="m-0">per adult</p>
+                <p class="m-0">Transportation included</p>
+              </div>
+            </div>
+            <div
+              style="width: 80%; margin: auto; border-left: 1px solid lightgray"
+            >
+              <p
+                class="m-0 px-3 d-sm-none d-lg-inline-block"
+                style="font-weight: bold"
+              >
+                Our trek begins in the village Ojeda on the southern coast of
+                Barahona
+              </p>
+              <p class="m-0 px-3 d-sm-none d-lg-inline-block">
+                We start on a lare farm where you only have to stretch out your
+                arm to pick and taste avocados, oranges, lemons, mangos,
+                papayas, sapotes, guavas, passion fruit, and many other types of
+                fruits
+              </p>
+            </div>
+            <div
+              class="d-lg-flex justify-content-between"
+              style="width: 80%; margin: auto"
+            >
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/bino.png"
+                  alt="broken-link"
+                  width="50"
+                  height="30"
+                />
+                &nbsp;
+                <div
+                  id="circle21"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle211" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle22"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle221" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle23"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle231" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle24"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle241" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle25"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle251" class="circle2"></div>
+                </div>
+                &nbsp;
+              </div>
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/info.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Info
+                <img
+                  src="./image/tour-list/photo.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Photo
+                <img
+                  src="./image/tour-list/map.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Map
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-0">
+      <div class="card">
+        <div class="row m-0">
+          <div class="col-md-4">
+            <img
+              src="./image/tour-list/flamingo.jpg"
+              alt="broken-link"
+              class="img-fluid"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="p-4 d-flex justify-content-between m-auto">
+              <div>
+                <h3 style="font: normal 30px bold Merriweather, serif">
+                  Garden of Eden
+                </h3>
+                <p class="m-0">DAY TRIP</p>
+
+                <p class="m-0">Departing from: Barahona</p>
+                <p><i class="bi bi-clock"> 5-6 hours</i></p>
+              </div>
+              <div class="text-end">
+                <button
+                  class="p-1 text-white"
+                  style="background-color: rgb(155, 205, 82); border: 0"
+                >
+                  $55
+                </button>
+                <p class="m-0">per adult</p>
+                <p class="m-0">Transportation included</p>
+              </div>
+            </div>
+            <div
+              style="width: 80%; margin: auto; border-left: 1px solid lightgray"
+            >
+              <p
+                class="m-0 px-3 d-sm-none d-lg-inline-block"
+                style="font-weight: bold"
+              >
+                Our trek begins in the village Ojeda on the southern coast of
+                Barahona
+              </p>
+              <p class="m-0 px-3 d-sm-none d-lg-inline-block">
+                We start on a lare farm where you only have to stretch out your
+                arm to pick and taste avocados, oranges, lemons, mangos,
+                papayas, sapotes, guavas, passion fruit, and many other types of
+                fruits
+              </p>
+            </div>
+            <div
+              class="d-lg-flex justify-content-between"
+              style="width: 80%; margin: auto"
+            >
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/bino.png"
+                  alt="broken-link"
+                  width="50"
+                  height="30"
+                />
+                &nbsp;
+                <div
+                  id="circle26"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle261" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle27"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle271" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle28"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle281" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle29"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle291" class="circle2"></div>
+                </div>
+                &nbsp;
+                <div
+                  id="circle30"
+                  onclick="hideFunction(this.id)"
+                  class="circle1"
+                >
+                  <div id="circle301" class="circle2"></div>
+                </div>
+                &nbsp;
+              </div>
+              <div class="m-0 py-2 px-2 d-flex">
+                <img
+                  src="./image/tour-list/info.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Info
+                <img
+                  src="./image/tour-list/photo.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Photo
+                <img
+                  src="./image/tour-list/map.jpg"
+                  alt="broken-link"
+                  width="25"
+                  height="30"
+                />
+                &nbsp;Map
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-0 p-5">
+      <div class="p-5 text-center">
+        <p
+          class="d-inline text-white px-4 py-2"
+          style="
+            font: normal bold 20px Times New Roman;
+            background-color: rgb(155, 205, 82);
+          "
+        >
+          LOAD MORE
+        </p>
+      </div>
+    </div>
+
+    <!--Feautured Travel Experiences-->
+    <div class="row m-0 px-5 py-5 text-center travel-exp">
+      <p>Feautured Travel Experiences</p>
+    </div>
+    <!--Grid images-->
+
+    <div class="row m-0">
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="./image/tour-list/t-img-6.jpg"
+            alt="broken-link"
+            class="card-img"
+          />
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="./image/tour-list/t-img-7.jpg"
+            alt="broken-link"
+            class="card-img"
+          />
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="./image/tour-list/t-img-8.jpg"
+            alt="broken-link"
+            class="card-img"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-0 p-5">
+      <div class="p-5 text-center">
+        <p
+          class="d-inline text-white px-4 py-2"
+          style="
+            font: normal bold 20px Times New Roman;
+            background-color: rgb(155, 205, 82);
+          "
+        >
+          LOAD MORE
+        </p>
+      </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!--Footer-->
+    <div class="row m-0 p-5 footer-section">
+      <div class="col-lg-5 p-3 d-flex">
+        <div>
+          <img src="./image/img-13.jpg" alt="broken-link" />
+          <p class="text-white pe-5" style="font: normal 15px Times New Roman">
+            Ecotour Barahona is your favourite specialist operating memorable,
+            authentic, safe round trips, day trips and other activities in
+            Southwest Dominican Republic.
+          </p>
+          <img src="./image/img-15.jpg" alt="broken-link" />
+          <p class="text-white pe-5" style="font: normal 15px Times New Roman">
+            Travel environmentally friendly with our packages and explore main
+            destinations of Dominican Republic.
+          </p>
+        </div>
+        <div class="flex-grow-1 flex-shrink-0">
+          <p style="color: rgb(155, 205, 82)">ABOUT US</p>
+          <p class="text-white">ABOUT ECOTOUR</p>
+          <p class="text-white">BARAHONA</p>
+          <p class="text-white">OUR TEAM</p>
+          <p class="text-white">GUEST BOOK</p>
+          <p class="text-white">IMPRINT</p>
+        </div>
+      </div>
+      <div class="col-lg-5 p-3 d-flex">
+        <div class="flex-grow-1 flex-shrink-0">
+          <p style="color: rgb(155, 205, 82)">CUSTOMER SERVICE</p>
+          <p class="text-white">BOOKING CONDITIONS</p>
+          <p class="text-white">CONTACT-US</p>
+          <p class="text-white">FAQ'S</p>
+          <p class="text-white">LEGAL NOTICE</p>
+          <p class="text-white">PRIVACY POLICY</p>
+        </div>
+        <div class="flex-grow-0 px-5">
+          <p style="color: rgb(155, 205, 82)">RESERVATION & BOOKING</p>
+          <p class="text-white">MONDAY TO FRIDAY From 8:00am to 8:00 pm</p>
+          <p class="text-white">SATURDAY TO SUNDAY From 9:00 am to 5:00 pm</p>
+          <p class="text-white">
+            Atlantic Standard Time &nbsp;&nbsp;
+            <i class="fas fa-phone-alt"></i> +1(809)123 4567
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-2 p-3">
+        <p style="color: rgb(155, 205, 82)">FOLLOW US</p>
+        <p class="text-white">
+          <i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i>
+        </p>
+      </div>
+    </div>
+
+    <!-- --------------FONTAWESOME CDN----------------- -->
+    <script
+      src="https://kit.fontawesome.com/2d62a48ad2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- --------------BOOTSTRAP JS CDN----------------- -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript" src="js/js1.js"></script>
+  </body>
+</html>
